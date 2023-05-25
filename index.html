@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+	  <div class="grid-item">
+		<h1>Hello World</h1>
+	  </div>
+	  <div class="grid-item grid-item--width2">
+		<p>I'm hosted with GitHub Pages.</p>
+	  </div>
+	  <div class="grid-item">
+		<h1>Hello World</h1>
+	  </div>
+	</div>
+	
+	
 </body>
 </html>
